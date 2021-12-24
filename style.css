@@ -1,0 +1,124 @@
+/* @import url("https://fonts.google.com/specimen/Outfit");
+ */
+body {
+  background-color: #0d1a2d;
+  color: #728fa9;
+  position: relative;
+  height: 679px;
+  font-family: Outfit;
+}
+
+.CardContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: fit-content;
+  border: 1px #000000;
+  background-color: #15273f;
+  padding: 15px 10px;
+  border-radius: 20px;
+  box-shadow: 12px 35px rgb(12, 23, 41), -12px 35px rgb(12, 23, 41);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ImageContainer {
+  margin: auto;
+  width: 280px;
+  height: 280px;
+  border-radius: 15px;
+  background-color: #0998ad;
+  position: relative;
+}
+
+.Image {
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.Image:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.ImageView {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.ContentContainer {
+  padding: 10px;
+}
+
+.CardTitle {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.CardTitle:hover {
+  color: #3fe6e0;
+  cursor: pointer;
+}
+
+.CardDescription {
+  color: #728fa9;
+}
+
+.SVGIcon {
+  position: relative;
+  top: 4px;
+}
+
+.ItemExtraData {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 25px 0;
+}
+
+.Price {
+  color: #4fe3ea;
+  font-weight: bold;
+}
+
+.TimeLeft {
+  color: #728fa9;
+  font-weight: 800;
+}
+
+.Divider {
+  width: 100%;
+  height: 5px;
+  margin: 10px 0;
+  border-top: 1px solid #ffffff83;
+}
+
+.Footer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.Footer > img {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.AuthorName {
+  color: #ffffff;
+}
+
+.AuthorName:hover {
+  color: #3fe6e0;
+  cursor: pointer;
+}
