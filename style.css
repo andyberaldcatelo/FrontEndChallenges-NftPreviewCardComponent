@@ -3,24 +3,28 @@
 body {
   background-color: #0d1a2d;
   color: #728fa9;
-  position: relative;
-  height: 679px;
+  height: auto;
+  /*   position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Outfit;
 }
 
 .CardContainer {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%; */
   width: 300px;
   height: fit-content;
   border: 1px #000000;
   background-color: #15273f;
   padding: 15px 10px;
   border-radius: 20px;
-  box-shadow: 12px 35px rgb(12, 23, 41), -12px 35px rgb(12, 23, 41);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.392),
+    0 2rem 2rem 0 rgb(0 0 0 / 0.392);
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .ImageContainer {
@@ -75,7 +79,7 @@ body {
 
 .SVGIcon {
   position: relative;
-  top: 4px;
+  top: 18px;
 }
 
 .ItemExtraData {
@@ -87,11 +91,19 @@ body {
 .Price {
   color: #4fe3ea;
   font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  column-gap: 5px;
 }
 
 .TimeLeft {
   color: #728fa9;
   font-weight: 800;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  column-gap: 5px;
 }
 
 .Divider {
